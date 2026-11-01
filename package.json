@@ -1,0 +1,13 @@
+{
+  "name": "bos-script",
+  "version": "1.1.0",
+  "private": true,
+  "description": "BOSS直聘批量沟通油猴脚本（受控版）",
+  "main": "instant.js",
+  "scripts": {
+    "check": "node --check instant.js",
+    "test": "node --test tests/logic.test.js tests/controller.test.js tests/controller-blocked.test.js tests/pagination.test.js"
+  },
+  "keywords": ["userscript", "tampermonkey", "zhipin"],
+  "license": "MIT"
+}
